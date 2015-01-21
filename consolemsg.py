@@ -9,7 +9,7 @@ def step(message) :
 
 def error(message) :
 	import sys
-	print(color('31', "Error: "+message), file=sys.stderr)
+	print(color('31;1', "Error: "+message), file=sys.stderr)
 
 def warn(message) :
 	import sys
