@@ -3,6 +3,10 @@
 def color(color, message) :
 	return "\033[{0}m{1}\033[0m".format(color,message)
 
+def success(message) :
+	import sys
+	print(color('32;1', ">> "+message), file=sys.stderr)
+
 def step(message) :
 	import sys
 	print(color('34;1', ":: "+message), file=sys.stderr)
