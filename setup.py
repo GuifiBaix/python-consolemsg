@@ -5,7 +5,7 @@ readme = open("README.rst").read()
 
 setup(
 	name = "consolemsg",
-	version = "0.1",
+	version = "0.2",
 	description = "Simple semantic functions for colorfull console messages",
 	author = "David Garcia Garzon",
 	author_email = "voki@canvoki.net",
