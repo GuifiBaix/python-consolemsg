@@ -1,8 +1,12 @@
 #!/usr/bin/python3
 from setuptools import setup, find_packages
 
-readme = open("README.rst").read()
-readme += open("CHANGES.rst").read()
+readme = '\n'.join((
+	open(filename).read()
+	for filename in (
+		"README.rst",
+		"CHANGES.rst",
+)))
 
 setup(
 	name = "consolemsg",
