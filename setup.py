@@ -10,7 +10,7 @@ readme = '\n'.join((
 
 setup(
 	name = "consolemsg",
-	version = "0.3.1",
+	version = "0.3.2",
 	description = "Simple semantic functions for colorfull console messages",
 	author = "David Garcia Garzon",
 	author_email = "voki@canvoki.net",

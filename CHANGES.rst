@@ -1,20 +1,30 @@
 Changelog
 =========
 
+consolemsg 0.3.2 2019-07-26
+---------------------------
+
+-  Minor package metadata fixes
+
+   -  Appending changelog properly
+   -  Added classifiers Python 2 and Console environment
+
 consolemsg 0.3.1 2019-07-26
 ---------------------------
 
--  Minor package metadata fixes (change log added)
+-  Minor package metadata fixes
+
+   -  Added changelog to the description
 
 consolemsg 0.3.0 2019-07-26
 ---------------------------
 
 -  Dropped support for Python 2 < 2.7.1 and Python 3 < 3.3
--  Two helpers ``u`` and ``b`` that ensures a conversion to unicode or
-   bytes regardles being in Py2 or Py3 and using UTF-8 as default
-   encoding.
--  New ``out`` function for undecorated, but still portably unicode
-   safe, content to stdout
+-  Two helpers ``u`` and ``b`` that ensure a nice conversion to
+   ``unicode`` and ``bytes`` regardles being in Py2 or Py3 and using
+   UTF-8 as default encoding.
+-  New ``out`` function to send undecorated content, but still portable
+   and unicode safe, to stdout
 -  Unicode over pipes without needing PYTHONIOENCODING, defaulting to
    utf-8 instead of ASCII
 
