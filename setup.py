@@ -2,10 +2,11 @@
 from setuptools import setup, find_packages
 
 readme = open("README.rst").read()
+readme += open("CHANGES.rst").read()
 
 setup(
 	name = "consolemsg",
-	version = "0.3.0",
+	version = "0.3.1",
 	description = "Simple semantic functions for colorfull console messages",
 	author = "David Garcia Garzon",
 	author_email = "voki@canvoki.net",

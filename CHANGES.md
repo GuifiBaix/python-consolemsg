@@ -1,5 +1,9 @@
 # Changelog
 
+## consolemsg 0.3.1  2019-07-26
+
+- Minor package metadata fixes (change log added)
+
 ## consolemsg 0.3.0  2019-07-26
 
 - Dropped support for Python 2 < 2.7.1 and Python 3 < 3.3
