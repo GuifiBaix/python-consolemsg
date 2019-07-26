@@ -21,7 +21,8 @@ setup(
 	classifiers = [
 		'Programming Language :: Python',
 		'Programming Language :: Python :: 3',
-		'Topic :: Multimedia',
+		'Programming Language :: Python :: 2',
+		'Environment :: Console',
 		'Topic :: Software Development :: Libraries :: Python Modules',
 		'Intended Audience :: Developers',
 		'Development Status :: 5 - Production/Stable',
